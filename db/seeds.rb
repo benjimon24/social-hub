@@ -7,3 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 User.create(username: "kane", email: "kane@gmail.com", password: "password")
 User.last.groups.create(name: "yay")
+Group.last.users.create(username: "karan", email: "karan@gmail.com", password: "password")
+Group.last.users.create(username: "ben", email: "ben@gmail.com", password: "password")
